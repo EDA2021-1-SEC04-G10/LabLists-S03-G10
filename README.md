@@ -1,30 +1,28 @@
-#ISIS1225 - Estructura de un proyecto
+# Laboratorio No. 3 :rocket:
 
-Este proyecto busca mostrar una posible forma de organizar el código que se va a desarrollar en los proyectos del curso.
+## Autores :writing_hand:
+* Hernán Buitrago 
+  * hf.buitrago10@uniandes.edu.co
+  * 201512807
+* Daniel Aguilera
+  * d.aguilera@uniandes.edu.co
+  * 202010592
 
-Esta organización es una sugerencia que puede ser adaptada a  las necesidades y gustos de cada persona.
+## Descripción :page_facing_up:
 
-La estructura tiene los siguiente directorios y archivos:
+La estructura del repositorio es la siguiente:
 
--App
+* App: Este directorio contiene los archivos python desarrollados.
+* Data: Este directorio contiene los datos de prueba.
+* Docs: Este directorio contiene los documentos anexos al proyecto donde se explican las decisiones de diseño, análisis de algoritmos y en general toda la información asociada al código desarrollado.
+* DiscLib: Este directorio contiene el código base que se entrega para el funcionamiento del curso. Dentro de este directorio se encuentran:
 
-Este directorio se utiliza para los archivos python desarrollados para responder a los retos del curso. Acá se pueden tener todos los archivos python que se necesiten
+```
+|-- ADT: Directorio con los Tipos Abstractos de Datos del curso.
 
--Data
-Este directorio contiene los datos/archivos de prueba para cada uno de los retos
+|-- DataStructures: Directorio con todas las estructuras de datos y archivos auxiliares para su correcto funcionamiento.
 
--Docs
-Este directorio tiene documentos anexos al proyecto donde se explican decisiones de diseño, análisis de algoritmos y en general información asociada al código desarrollado por cada grupo
+|-- Algorithms: Implementación de los algoritmos vistos en el curso.
 
--DiscLib
-Este directorio contiene todo el código de base que se entrega para el funcionamiento del curso.  Dentro de este directorio encuentran:
-    
-    |-- ADT:  Directorio con los Tipos Abstractos de Datos del curso
-
-    |--DataStructures: Directorio con todas las estructuras de datos y archivos auxiliares para su     correcto funcionamiento
-
-    |--Algorithms: Implementación de los algoritmos vistos en el curso (por ejemplo algoritmos de ordenamiento)
-
-    |-- Utils: Funciones auxiliares para el funcionamiento de los TADs y estructuras de datos
-
-
+|-- Utils: Funciones auxiliares para el funcionamiento de los TADs y estructuras de datos.
+```
